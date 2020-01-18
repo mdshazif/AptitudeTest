@@ -16,6 +16,7 @@ namespace ConsoleApplication1
             Console.WriteLine(alex.ShowSkill());//print cooking
             var bob = new Humanoid();
             Console.WriteLine(bob.ShowSkill());//print no skill is defined
+            Console.WriteLine("\n\nPress any key to exit...");
 
             Console.ReadLine();
         }
