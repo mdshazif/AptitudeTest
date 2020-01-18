@@ -23,7 +23,7 @@ namespace ConsoleApplication1
             //it only shows the kitchen after build
             //kitchen, master room, guest room, balcony, kitchen, another room
             Console.WriteLine(luxuryHouse.Describe());
-
+            Console.WriteLine("\n\nPress any key to close this window...");
             Console.ReadLine();
         }
     }
