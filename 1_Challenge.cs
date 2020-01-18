@@ -23,7 +23,6 @@ namespace ConsoleApplication1
 
     public class Aptitude
     {
-        #region 1.Challenge
         public int Challenge(int[] input)
         {
             Dictionary<int, int> dicItems = new Dictionary<int, int>();
@@ -52,7 +51,6 @@ namespace ConsoleApplication1
             }
             return BigCombNumber;
         }
-        #endregion
 
     }
 }
