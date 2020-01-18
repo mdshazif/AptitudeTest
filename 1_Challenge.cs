@@ -13,6 +13,7 @@ namespace ConsoleApplication1
             Aptitude apt = new Aptitude();
             #region 1.Challenge
             int[] input1 = { 1, 2, 1, 5, 5, 3, 3, 3, 4 };
+            //int[] input1 = { 1, 6, 1, 2, 6, 1, 6, 6 };
             var res1 = apt.Challenge(input1);
             Console.WriteLine(res1);
             #endregion
