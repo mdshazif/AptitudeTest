@@ -4,5 +4,7 @@
   public async Task<(long averageSalary, long numberOfEmployee)> SomeCalculation(long salary, long numEmployee, bool isValueEqual)
         {
             var avgSalary = (salary == 0L) ? salary : salary / numEmployee;
+	     //...
+	     //...
             return (avgSalary, numEmployee);
         }
